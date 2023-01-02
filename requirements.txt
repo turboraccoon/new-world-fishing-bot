@@ -1,0 +1,6 @@
+PyAutoGUI
+PyDirectInput
+Pillow
+opencv-python
+mss
+pynput
