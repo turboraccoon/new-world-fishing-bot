@@ -132,6 +132,9 @@ def main():
             keyboard.release('d')
             time.sleep(.2)
 
+        else:
+            time.sleep(.2)
+
         gc.collect()
 
 
