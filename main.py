@@ -121,6 +121,8 @@ def main():
         print('Release "free look" button')
         keyboard.release(Key.alt)
 
+        time.sleep(.2)
+
         # Move from side to side to reset AFK cooldown.
         if random.random() > .5:
             keyboard.press('a')
@@ -130,9 +132,6 @@ def main():
             keyboard.press('d')
             time.sleep(.2)
             keyboard.release('d')
-            time.sleep(.2)
-
-        else:
             time.sleep(.2)
 
         gc.collect()
